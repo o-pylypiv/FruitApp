@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		EB3A38352C4FF6F400EF89A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38342C4FF6F400EF89A2 /* AppDelegate.swift */; };
 		EB3A38372C4FF6F400EF89A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38362C4FF6F400EF89A2 /* SceneDelegate.swift */; };
-		EB3A38392C4FF6F400EF89A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38382C4FF6F400EF89A2 /* ViewController.swift */; };
-		EB3A383C2C4FF6F400EF89A2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EB3A383B2C4FF6F400EF89A2 /* Base */; };
 		EB3A383E2C4FF6F600EF89A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3A383D2C4FF6F600EF89A2 /* Assets.xcassets */; };
 		EB3A38412C4FF6F600EF89A2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EB3A38402C4FF6F600EF89A2 /* Base */; };
+		EB3A38492C5012CA00EF89A2 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38482C5012CA00EF89A2 /* SearchVC.swift */; };
+		EB3A384B2C5012F800EF89A2 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A384A2C5012F800EF89A2 /* FavoritesListVC.swift */; };
+		EB3A384D2C515D1A00EF89A2 /* FAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A384C2C515D1A00EF89A2 /* FAButton.swift */; };
+		EB3A384F2C52849B00EF89A2 /* FATitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A384E2C52849B00EF89A2 /* FATitleLabel.swift */; };
+		EB3A38512C5285D900EF89A2 /* FABodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38502C5285D900EF89A2 /* FABodyLabel.swift */; };
+		EB3A38582C528F4200EF89A2 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38572C528F4100EF89A2 /* Fruit.swift */; };
+		EB3A385A2C528F6800EF89A2 /* Nutritions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38592C528F6800EF89A2 /* Nutritions.swift */; };
+		EB3A385D2C52965C00EF89A2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A385C2C52965C00EF89A2 /* NetworkManager.swift */; };
+		EB3A38602C529DDB00EF89A2 /* FAError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A385F2C529DDB00EF89A2 /* FAError.swift */; };
+		EB3A38622C52AC5800EF89A2 /* FruitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38612C52AC5800EF89A2 /* FruitCell.swift */; };
+		EB3A38642C52ACD400EF89A2 /* FAFruitImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38632C52ACD400EF89A2 /* FAFruitImageView.swift */; };
+		EB3A38662C52BCF600EF89A2 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38652C52BCF600EF89A2 /* UIHelper.swift */; };
+		EB3A38692C53D54000EF89A2 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38682C53D54000EF89A2 /* UIViewController+Ext.swift */; };
+		EB3A386B2C53EF1900EF89A2 /* FruitInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A386A2C53EF1900EF89A2 /* FruitInfoVC.swift */; };
+		EB3A386E2C53F6A200EF89A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A386D2C53F6A200EF89A2 /* Constants.swift */; };
+		EB3A38702C53FDFC00EF89A2 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A386F2C53FDFC00EF89A2 /* UIView+Ext.swift */; };
+		EB3A38742C540FD000EF89A2 /* FruitInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3A38732C540FD000EF89A2 /* FruitInfoHeaderVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB3A38312C4FF6F400EF89A2 /* FruitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3A38342C4FF6F400EF89A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB3A38362C4FF6F400EF89A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB3A38382C4FF6F400EF89A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB3A383B2C4FF6F400EF89A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB3A383D2C4FF6F600EF89A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB3A38402C4FF6F600EF89A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB3A38422C4FF6F600EF89A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB3A38482C5012CA00EF89A2 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		EB3A384A2C5012F800EF89A2 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		EB3A384C2C515D1A00EF89A2 /* FAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAButton.swift; sourceTree = "<group>"; };
+		EB3A384E2C52849B00EF89A2 /* FATitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FATitleLabel.swift; sourceTree = "<group>"; };
+		EB3A38502C5285D900EF89A2 /* FABodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FABodyLabel.swift; sourceTree = "<group>"; };
+		EB3A38572C528F4100EF89A2 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		EB3A38592C528F6800EF89A2 /* Nutritions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutritions.swift; sourceTree = "<group>"; };
+		EB3A385C2C52965C00EF89A2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EB3A385F2C529DDB00EF89A2 /* FAError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAError.swift; sourceTree = "<group>"; };
+		EB3A38612C52AC5800EF89A2 /* FruitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCell.swift; sourceTree = "<group>"; };
+		EB3A38632C52ACD400EF89A2 /* FAFruitImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAFruitImageView.swift; sourceTree = "<group>"; };
+		EB3A38652C52BCF600EF89A2 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		EB3A38682C53D54000EF89A2 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		EB3A386A2C53EF1900EF89A2 /* FruitInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitInfoVC.swift; sourceTree = "<group>"; };
+		EB3A386D2C53F6A200EF89A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = FruitApp/Utilities/Constants.swift; sourceTree = SOURCE_ROOT; };
+		EB3A386F2C53FDFC00EF89A2 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		EB3A38732C540FD000EF89A2 /* FruitInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitInfoHeaderVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,86 @@
 		EB3A38332C4FF6F400EF89A2 /* FruitApp */ = {
 			isa = PBXGroup;
 			children = (
+				EB3A385E2C529DBD00EF89A2 /* Utilities */,
+				EB3A38672C53D52000EF89A2 /* Extensions */,
+				EB3A38562C528D7500EF89A2 /* Model */,
+				EB3A385B2C52962600EF89A2 /* Managers */,
+				EB3A38522C5288D600EF89A2 /* CustomViews */,
+				EB3A38532C5288F300EF89A2 /* Screens */,
+				EB3A38542C52894E00EF89A2 /* Support */,
+			);
+			path = FruitApp;
+			sourceTree = "<group>";
+		};
+		EB3A38522C5288D600EF89A2 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A384C2C515D1A00EF89A2 /* FAButton.swift */,
+				EB3A384E2C52849B00EF89A2 /* FATitleLabel.swift */,
+				EB3A38502C5285D900EF89A2 /* FABodyLabel.swift */,
+				EB3A38612C52AC5800EF89A2 /* FruitCell.swift */,
+				EB3A38632C52ACD400EF89A2 /* FAFruitImageView.swift */,
+				EB3A38732C540FD000EF89A2 /* FruitInfoHeaderVC.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EB3A38532C5288F300EF89A2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A384A2C5012F800EF89A2 /* FavoritesListVC.swift */,
+				EB3A38482C5012CA00EF89A2 /* SearchVC.swift */,
+				EB3A386A2C53EF1900EF89A2 /* FruitInfoVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EB3A38542C52894E00EF89A2 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				EB3A38342C4FF6F400EF89A2 /* AppDelegate.swift */,
 				EB3A38362C4FF6F400EF89A2 /* SceneDelegate.swift */,
-				EB3A38382C4FF6F400EF89A2 /* ViewController.swift */,
-				EB3A383A2C4FF6F400EF89A2 /* Main.storyboard */,
 				EB3A383D2C4FF6F600EF89A2 /* Assets.xcassets */,
 				EB3A383F2C4FF6F600EF89A2 /* LaunchScreen.storyboard */,
 				EB3A38422C4FF6F600EF89A2 /* Info.plist */,
 			);
-			path = FruitApp;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		EB3A38562C528D7500EF89A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A38572C528F4100EF89A2 /* Fruit.swift */,
+				EB3A38592C528F6800EF89A2 /* Nutritions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB3A385B2C52962600EF89A2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A385C2C52965C00EF89A2 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EB3A385E2C529DBD00EF89A2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A386D2C53F6A200EF89A2 /* Constants.swift */,
+				EB3A385F2C529DDB00EF89A2 /* FAError.swift */,
+				EB3A38652C52BCF600EF89A2 /* UIHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EB3A38672C53D52000EF89A2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB3A38682C53D54000EF89A2 /* UIViewController+Ext.swift */,
+				EB3A386F2C53FDFC00EF89A2 /* UIView+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +228,6 @@
 			files = (
 				EB3A383E2C4FF6F600EF89A2 /* Assets.xcassets in Resources */,
 				EB3A38412C4FF6F600EF89A2 /* Base in Resources */,
-				EB3A383C2C4FF6F400EF89A2 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +238,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB3A38392C4FF6F400EF89A2 /* ViewController.swift in Sources */,
+				EB3A38602C529DDB00EF89A2 /* FAError.swift in Sources */,
+				EB3A386E2C53F6A200EF89A2 /* Constants.swift in Sources */,
+				EB3A38582C528F4200EF89A2 /* Fruit.swift in Sources */,
+				EB3A38692C53D54000EF89A2 /* UIViewController+Ext.swift in Sources */,
+				EB3A38492C5012CA00EF89A2 /* SearchVC.swift in Sources */,
+				EB3A38642C52ACD400EF89A2 /* FAFruitImageView.swift in Sources */,
+				EB3A385D2C52965C00EF89A2 /* NetworkManager.swift in Sources */,
+				EB3A38622C52AC5800EF89A2 /* FruitCell.swift in Sources */,
+				EB3A385A2C528F6800EF89A2 /* Nutritions.swift in Sources */,
+				EB3A38512C5285D900EF89A2 /* FABodyLabel.swift in Sources */,
+				EB3A384D2C515D1A00EF89A2 /* FAButton.swift in Sources */,
+				EB3A384B2C5012F800EF89A2 /* FavoritesListVC.swift in Sources */,
+				EB3A38742C540FD000EF89A2 /* FruitInfoHeaderVC.swift in Sources */,
+				EB3A386B2C53EF1900EF89A2 /* FruitInfoVC.swift in Sources */,
 				EB3A38352C4FF6F400EF89A2 /* AppDelegate.swift in Sources */,
+				EB3A38702C53FDFC00EF89A2 /* UIView+Ext.swift in Sources */,
+				EB3A384F2C52849B00EF89A2 /* FATitleLabel.swift in Sources */,
 				EB3A38372C4FF6F400EF89A2 /* SceneDelegate.swift in Sources */,
+				EB3A38662C52BCF600EF89A2 /* UIHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EB3A383A2C4FF6F400EF89A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB3A383B2C4FF6F400EF89A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB3A383F2C4FF6F600EF89A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,12 +402,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GF6UJT876G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FruitApp/Info.plist;
+				INFOPLIST_FILE = FruitApp/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +414,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FruitApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,12 +433,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = GF6UJT876G;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FruitApp/Info.plist;
+				INFOPLIST_FILE = FruitApp/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +445,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.FruitApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
